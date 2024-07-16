@@ -1,5 +1,5 @@
 import Demo from "./Demo"
-
+import Counter from "./Counter"
 
 function App() {
   return (
@@ -9,6 +9,10 @@ function App() {
       <div>
         <h2>this content is inside the App component</h2>
         <Demo />
+      </div>
+
+      <div>
+        <Counter />
       </div>
     </>
   )
