@@ -34,3 +34,9 @@ build: Update dependency to latest version<br>
 ci: Configure CI pipeline for testing<br>
 chore: Remove unused code<br>
 revert: Revert "feat: Add user authentication feature"<br>
+
+
+<h2>To install tailwind.css</h2>
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+and check the documentation in 'tailwind css web page'.

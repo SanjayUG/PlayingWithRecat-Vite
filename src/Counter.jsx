@@ -26,11 +26,11 @@ function Counter() {
             <h2>Counter Value: {count}</h2>
             <h2>Counter Value: {count}</h2>
             <h2>Counter Value: {count}</h2>
-            <button onClick={addCounter}>Add</button>
+            <button onClick={addCounter} className="bg-green-500">Add</button>
             <br/>
-            <button onClick={subCounter}>Sub</button>
+            <button onClick={subCounter} className="bg-red-500">Sub</button>
             <br/>
-            <button onClick={mulCounter}>2x</button>
+            <button onClick={mulCounter} className="bg-blue-500">2x</button>
         </>
     )
 }
