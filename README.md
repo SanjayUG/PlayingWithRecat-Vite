@@ -37,6 +37,6 @@ revert: Revert "feat: Add user authentication feature"<br>
 
 
 <h2>To install tailwind.css</h2>
-npm install -D tailwindcss postcss autoprefixer
-npx tailwindcss init -p
+npm install -D tailwindcss postcss autoprefixer,<br/>
+npx tailwindcss init -p<br/>
 and check the documentation in 'tailwind css web page'.
