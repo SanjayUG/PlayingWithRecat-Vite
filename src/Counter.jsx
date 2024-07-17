@@ -15,7 +15,9 @@ function Counter() {
         console.log(count);
     }
     let mulCounter = () => {
-        setCount(count * 2);
+        // setCount(count * 2);
+        
+        setCount((prevCount) => prevCount + prevCount); //can accept a function
         console.log(count);
     }
     
