@@ -21,11 +21,17 @@ function Counter() {
     
     return(
         <>
-            <h2>Counter Value: {count}</h2>
-            <h2>Counter Value: {count}</h2>
-            <h2>Counter Value: {count}</h2>
-            <h2>Counter Value: {count}</h2>
-            <h2>Counter Value: {count}</h2>
+            <p>Counter Value: {count}</p>
+            <p>Counter Value: {count}</p>
+            <p>Counter Value: {count}</p>
+            <p>Counter Value: {count}</p>
+            <p>Counter Value: {count}</p>
+            <p>Counter Value: {count}</p>
+            <p>Counter Value: {count}</p>
+            <p>Counter Value: {count}</p>
+            <p>Counter Value: {count}</p>
+            <p>Counter Value: {count}</p>
+            
             <button onClick={addCounter} className="bg-green-500">Add</button>
             <br/>
             <button onClick={subCounter} className="bg-red-500">Sub</button>
